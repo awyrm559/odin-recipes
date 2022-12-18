@@ -1,10 +1,8 @@
 body {
-
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-color: rgb(110, 136, 216);
     background-color:papayawhip;
-
 }
 
 html, body {
@@ -12,11 +10,22 @@ html, body {
     height: 100%;
 }
 
-.bgcontainer {
-    background-image:"images/bg.jpg";
-    position: relative;
-    bottom: 8px;
-    left: 16px;
+.bg {
+   padding-top: 220px;
+   padding-bottom: 220px;
+   background-color: antiquewhite;
+   background-image: url("images/bg.jpg");
+   background-repeat: no-repeat;
+   font-size: 40px;
+   color: rgba(226, 15, 15, 0.479);
+}
+
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
 .bon {
@@ -26,12 +35,8 @@ html, body {
     width: 80%;
 }
 
-.hd2,
-.hd1 {
-    font-size:45px;
-    color: rgb(207, 63, 63);
-}
-
-.lnks {
+.lnks,
+.hd2 {
     font-size: 30px;
+    margin-bottom: 5px;
 }
